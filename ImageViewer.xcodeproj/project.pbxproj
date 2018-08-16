@@ -27,6 +27,7 @@
 		69BAC6472124A3F000E952FA /* IMG_7956.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 69BAC6392124A3F000E952FA /* IMG_7956.JPG */; };
 		69BAC6482124A3F000E952FA /* IMG_2783.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 69BAC63A2124A3F000E952FA /* IMG_2783.JPG */; };
 		69BAC6492124A3F000E952FA /* IMG_2595.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 69BAC63B2124A3F000E952FA /* IMG_2595.JPG */; };
+		69BAC64B2124D62600E952FA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAC64A2124D62600E952FA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		69BAC6392124A3F000E952FA /* IMG_7956.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_7956.JPG; sourceTree = "<group>"; };
 		69BAC63A2124A3F000E952FA /* IMG_2783.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2783.JPG; sourceTree = "<group>"; };
 		69BAC63B2124A3F000E952FA /* IMG_2595.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2595.JPG; sourceTree = "<group>"; };
+		69BAC64A2124D62600E952FA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				69BAC60B212494E500E952FA /* AppDelegate.swift */,
 				69BAC60D212494E500E952FA /* ViewController.swift */,
+				69BAC64A2124D62600E952FA /* DetailViewController.swift */,
 				69BAC60F212494E500E952FA /* Main.storyboard */,
 				69BAC612212494EA00E952FA /* Assets.xcassets */,
 				69BAC614212494EA00E952FA /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69BAC64B2124D62600E952FA /* DetailViewController.swift in Sources */,
 				69BAC60E212494E500E952FA /* ViewController.swift in Sources */,
 				69BAC60C212494E500E952FA /* AppDelegate.swift in Sources */,
 			);
