@@ -52,11 +52,11 @@
         <scene sceneID="uu3-lb-cpC">
             <objects>
                 <viewController storyboardIdentifier="Detail" id="e25-sx-Xuv" customClass="DetailViewController" customModule="ImageViewer" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BHN-4P-QYs">
+                    <view key="view" contentMode="scaleAspectFit" id="BHN-4P-QYs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DYQ-78-Ogq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DYQ-78-Ogq">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>

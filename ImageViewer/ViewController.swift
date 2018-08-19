@@ -17,6 +17,8 @@ class ViewController: UITableViewController {
         super.viewDidLoad() // super tells Apple to run UIViewController before mine
         // Do any additional setup after loading the view, typically from a nib.
         
+        navigationController?.navigationBar.prefersLargeTitles = true
+        title = "Mountain Views"
         let fm = FileManager.default //file manager constant to use the filesystem
         let path = Bundle.main.resourcePath! // show me where I can find my images I added to the file
         let items = try! fm.contentsOfDirectory(atPath: path) // an array of the file names that were found in the
